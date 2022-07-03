@@ -1,0 +1,12 @@
+@use 'sass:math';
+@import '_fonts.scss';
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: math.div(1600px, 1920px)*100%;
+    max-width: 1600px;
+}
